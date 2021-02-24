@@ -1,9 +1,13 @@
-cerll
+cellular-erlang
 =====
 
-An OTP library
+Celluar automata fun with erlang!
 
-Build
+
+Use
 -----
 
-    $ rebar3 compile
+    $ rebar3 shell
+
+    1> cerll:glider().
+    1> cerll:osc().
